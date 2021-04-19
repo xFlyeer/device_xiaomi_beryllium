@@ -23,3 +23,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="beryllium"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
+
+# Extra flags
+TARGET_BOOT_ANIMATION_RES := 1080

@@ -17,10 +17,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="beryllium-user 10 QKQ1.190828.002 V12.0.2.0.QEJMIXM release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210505.003 7255357 release-keys" \
     PRODUCT_NAME="beryllium"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

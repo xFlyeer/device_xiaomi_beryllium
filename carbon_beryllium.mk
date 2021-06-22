@@ -6,12 +6,15 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Dot OS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
+
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common.mk)
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_beryllium
+PRODUCT_NAME := carbon_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
